@@ -1,0 +1,71 @@
+html {
+	width: 100%;
+	float: left;
+	display: block;
+}
+.just_for_tou_area1 {
+	width: 100%;
+	float: left;
+	display: block;
+}
+
+/* BOOTSTRAP */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'antd/dist/antd.css';
+
+/* Deafult Css */
+ @import './assets/css/style.css';
+ @import './assets/css/rasponsive.css';
+ @import './assets/css/animate.css';
+ /* @import './assets/css/comingsoon.css'; */
+
+/* OWL CAROUSEL  */
+@import 'owl.carousel/dist/assets/owl.carousel.css';
+@import 'owl.carousel/dist/assets/owl.theme.default.css';
+
+/* Global css */
+
+.container {
+	width: 1366px !important;
+}
+
+.rasponsive_catagore_area_two .ant-drawer-body {
+	padding: 0px !important;
+	
+}
+.ant-modal-body {
+	width: 100%;
+	float: left;
+}
+
+.ant-radio-checked .ant-radio-inner {
+	border-color: #222 !important;
+}
+.ant-radio-inner::after {
+	background-color: #222 !important;
+}
+
+
+@media (max-width: 768.310px) {
+	.container {
+		width: auto !important;
+	}
+}
+
+.scrolled {
+	position: fixed;
+	width: 100%;
+	z-index: 99;
+	transition: all .3s;
+	box-shadow: 1px 1px 10px 1px rgba(0,0,0,.16);
+	background: #fff;
+	top: 0;
+	padding-top: 10px;
+}
+
+
+@keyframes o-rotate-360 {
+    0% { transform: rotate(0) }
+  
+    100% { transform: rotate(360deg) }
+  }
